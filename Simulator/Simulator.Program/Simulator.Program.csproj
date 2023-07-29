@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Simulator</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Simulator.PhysicalModels\Simulator.PhysicalModels.csproj"/>
+        <ProjectReference Include="..\Simulator.Stands\Simulator.Stands.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="EngineConfiguration.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>

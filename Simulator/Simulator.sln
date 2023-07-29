@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulator.Program", "Simulator.Program\Simulator.Program.csproj", "{25744DD0-7F12-4B20-99EF-4FC71674C32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulator.PhysicalModels", "Simulator.PhysicalModels\Simulator.PhysicalModels.csproj", "{287ACD65-5971-4120-9016-423BB1A1E4A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulator.Stands", "Simulator.Stands\Simulator.Stands.csproj", "{1FAE5624-B2C7-4AF3-9236-0FEC2AF31975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25744DD0-7F12-4B20-99EF-4FC71674C32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25744DD0-7F12-4B20-99EF-4FC71674C32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25744DD0-7F12-4B20-99EF-4FC71674C32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25744DD0-7F12-4B20-99EF-4FC71674C32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287ACD65-5971-4120-9016-423BB1A1E4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287ACD65-5971-4120-9016-423BB1A1E4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287ACD65-5971-4120-9016-423BB1A1E4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287ACD65-5971-4120-9016-423BB1A1E4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAE5624-B2C7-4AF3-9236-0FEC2AF31975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAE5624-B2C7-4AF3-9236-0FEC2AF31975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAE5624-B2C7-4AF3-9236-0FEC2AF31975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAE5624-B2C7-4AF3-9236-0FEC2AF31975}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
